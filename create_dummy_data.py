@@ -58,7 +58,7 @@ class CreateDummyData:
         """
         ret_data = {
             "temp": random.randint(0, 100),
-            "mode": random.choice(["cool", "heat"])
+            "mode": random.choice(["冷房", "暖房"])
         }
 
         return ret_data
@@ -68,7 +68,7 @@ class CreateDummyData:
         換気扇のシミュレート
         """
         ret_data = {
-            "value": random.choice([True, False])
+            "value": random.choice(["ON", "OFF"])
         }
 
         return ret_data
