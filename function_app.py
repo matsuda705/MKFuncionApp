@@ -13,7 +13,8 @@ app = func.FunctionApp(http_auth_level=func.AuthLevel.FUNCTION)
 def get_current_data(req: func.HttpRequest) -> func.HttpResponse:
     logging.info('Python HTTP trigger function processed a request.')
 
-    get_current_data = CreateDummyData.create_all_data()
+    create_dummy_instance = CreateDummyData()
+    get_current_data = create_dummy_instance.create_all_data()
 
     return func.HttpResponse(
         json.dumps(get_current_data),
