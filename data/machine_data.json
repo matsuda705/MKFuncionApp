@@ -1,0 +1,24 @@
+{
+    "air_conditioner_A": {
+        "temp": 0,
+        "mode": "cool"
+    },
+    "air_conditioner_B": {
+        "temp": 0,
+        "mode": "cool"
+    },
+    "fan": {
+        "value": false
+    },
+    "co2_monitor": {
+        "value": 0
+    },
+    "thermohygrometer_A": {
+        "temp": 0,
+        "humidity": 0
+    },
+    "thermohygrometer_B": {
+        "temp": 0,
+        "humidity": 0
+    }
+}
